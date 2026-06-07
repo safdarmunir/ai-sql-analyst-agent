@@ -7,13 +7,15 @@ import streamlit as st
 from api_client import APIError, AnalystAPI
 from charts import CHART_TYPES, build_chart, build_cohort_heatmap
 
+DEFAULT_API_BASE_URL = "https://backend-production-f3c5.up.railway.app"
+
 
 def get_api_base_url() -> str:
     try:
         secret_value = st.secrets.get("API_BASE_URL")
     except Exception:
         secret_value = None
-    configured_url = os.getenv("API_BASE_URL") or secret_value or "http://localhost:8000"
+    configured_url = os.getenv("API_BASE_URL") or secret_value or DEFAULT_API_BASE_URL
     return configured_url.rstrip("/")
 
 
@@ -224,7 +226,7 @@ try:
 except APIError as exc:
     st.error(str(exc))
     st.code(
-        'API_BASE_URL = "https://your-railway-service.up.railway.app"',
+        f'API_BASE_URL = "{DEFAULT_API_BASE_URL}"',
         language="toml",
     )
     st.caption(f"Currently configured backend: {API_BASE_URL}")
