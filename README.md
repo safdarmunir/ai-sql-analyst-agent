@@ -185,7 +185,7 @@ generation, cohort widgets, insights, and persisted history.
 Simple portfolio deployment:
 
 - Backend: Railway or Render using `backend/Dockerfile`
-- Frontend: Streamlit Community Cloud using `frontend/app.py`
+- Frontend: Streamlit Community Cloud using root `app.py`
 - Persistent storage: attach a volume to the backend service
 - Secrets: configure `GEMINI_API_KEY` in the platform secret manager
 - Frontend secret: configure `API_BASE_URL` to the deployed backend root URL

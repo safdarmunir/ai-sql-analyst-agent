@@ -91,7 +91,7 @@ Create a new Streamlit app from the GitHub repository.
 
 Recommended app settings:
 
-- Main file path: `frontend/app.py`
+- Main file path: `app.py`
 - Python version: 3.13 if available, otherwise 3.12
 - Requirements file: root `requirements.txt`
 
