@@ -1,0 +1,11 @@
+fastapi>=0.136.1,<1.0.0
+pydantic>=2.13.0,<3.0.0
+uvicorn[standard]>=0.47.0,<1.0.0
+python-multipart>=0.0.24,<1.0.0
+duckdb>=1.5.3,<2.0.0
+sqlglot>=30.8.0,<31.0.0
+google-genai>=2.7.0,<3.0.0
+pandas>=3.0.3,<4.0.0
+openpyxl>=3.1.5,<4.0.0
+defusedxml>=0.7.1,<1.0.0
+langgraph>=1.2.1,<2.0.0

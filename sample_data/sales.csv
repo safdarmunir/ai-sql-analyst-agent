@@ -1,0 +1,22 @@
+order_id,order_date,customer,segment,product,category,region,quantity,revenue
+1001,2026-01-03,Acme Corp,Enterprise,Analytics Pro,Software,North,3,4500
+1002,2026-01-08,Globex,Mid-Market,Cloud Basic,Cloud,South,12,2400
+1003,2026-01-12,Initech,SMB,Support Plus,Services,West,8,1600
+1004,2026-01-18,Umbrella,Enterprise,Cloud Pro,Cloud,East,6,5400
+1005,2026-01-25,Stark Industries,Enterprise,Analytics Pro,Software,North,5,7500
+1006,2026-02-02,Acme Corp,Enterprise,Cloud Pro,Cloud,North,4,3600
+1007,2026-02-07,Globex,Mid-Market,Support Plus,Services,South,10,2000
+1008,2026-02-14,Wayne Enterprises,Enterprise,Analytics Pro,Software,East,2,3000
+1009,2026-02-20,Initech,SMB,Cloud Basic,Cloud,West,7,1400
+1010,2026-02-27,Wonka Industries,Mid-Market,Data Starter,Software,South,9,2250
+1011,2026-03-04,Stark Industries,Enterprise,Cloud Pro,Cloud,North,8,7200
+1012,2026-03-09,Umbrella,Enterprise,Support Plus,Services,East,15,3000
+1013,2026-03-15,Acme Corp,Enterprise,Analytics Pro,Software,North,6,9000
+1014,2026-03-21,Wayne Enterprises,Enterprise,Data Starter,Software,East,10,2500
+1015,2026-03-29,Globex,Mid-Market,Cloud Basic,Cloud,South,14,2800
+1016,2026-04-05,Initech,SMB,Support Plus,Services,West,5,1000
+1017,2026-04-11,Wonka Industries,Mid-Market,Analytics Pro,Software,South,3,4500
+1018,2026-04-17,Stark Industries,Enterprise,Cloud Pro,Cloud,North,7,6300
+1019,2026-04-23,Umbrella,Enterprise,Data Starter,Software,East,11,2750
+1020,2026-04-28,Acme Corp,Enterprise,Cloud Basic,Cloud,North,16,3200
+
